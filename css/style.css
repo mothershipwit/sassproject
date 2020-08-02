@@ -1,0 +1,26 @@
+body {
+  background: #ccc; }
+
+.header {
+  background: maroon;
+  color: #3d3fbb;
+  padding: 20px;
+  margin: 20px 0; }
+
+.content {
+  background: turquoise;
+  padding: 20px;
+  margin: 20px 0; }
+
+.footer {
+  background: lime;
+  color: #3d3fbb;
+  padding: 20px;
+  margin: 20px 0; }
+
+.btn {
+  padding: 10px 20px; }
+  .btn.primary {
+    background: #3d3fbb; }
+  .btn.secondary {
+    background: #F1FFC4; }
