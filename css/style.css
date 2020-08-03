@@ -1,9 +1,31 @@
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
+
 body {
-  background: #ccc; }
+  margin: 0 auto;
+  background: url(/assets/pikespeak.jpg/assets/pikespeak.jpg); }
+
+body {
+  margin: 0 auto;
+  display: block;
+  background: url(/assets/pikesclouds.jpg/assets/pikesclouds.jpg);
+  max-width: 100%;
+  max-height: 100%; }
+
+body {
+  margin: 0 auto;
+  display: block;
+  background: url(/assets/pikeslake.jpg/assets/pikeslake.jpg);
+  max-width: 100%;
+  max-height: 100%; }
+
+body {
+  background: #502A4E; }
 
 .header {
-  background: maroon;
-  color: #3d3fbb;
+  background: #E08FBC;
+  color: #1a10a0;
   padding: 20px;
   margin: 20px 0; }
 
@@ -13,14 +35,14 @@ body {
   margin: 20px 0; }
 
 .footer {
-  background: lime;
-  color: #3d3fbb;
+  background: #3C3C90;
+  color: #1a10a0;
   padding: 20px;
   margin: 20px 0; }
 
 .btn {
   padding: 10px 20px; }
   .btn.primary {
-    background: #3d3fbb; }
+    background: #B2A3CC; }
   .btn.secondary {
-    background: #F1FFC4; }
+    background: #B2A3CC; }
