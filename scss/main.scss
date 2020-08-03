@@ -2,7 +2,6 @@
     padding: 20px;
     margin: 20px 0;
 }
-
     @mixin heading-font {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -11,32 +10,37 @@
   h1 {
     @include heading-font;
   }
+   h2 {
+   @include heading-font; 
+  }
 
-  $assetPath :"/assets/pikespeak.jpg";
-
-body {
-  margin: 0 auto;
-  background: url(#{$assetPath}/assets/pikespeak.jpg);
- 
-}
-
-$assetPath :"/assets/pikesclouds.jpg";
+  $assetPath :"/assets/pikes3.jpg";
 
 body {
   margin: 0 auto;
   display: block;
-  background: url(#{$assetPath}/assets/pikesclouds.jpg);
-  max-width: 100%;
-  max-height:100%;
+  background: url(#{$assetPath}/assets/pikes3.jpg);
+ max-width: 100%;
+ max-width: 100%;
+}
+
+$assetPath :"/assets/pikes.png";
+
+body {
+  margin: 0 auto;
+  display: block;
+  background: url(#{$assetPath}/assets/pikes.png);
+  max-width: 100px;
+  max-height: 100px;
   
 }
 
-$assetPath :"/assets/pikeslake.jpg";
+$assetPath :"/assets/pikes2.jpg";
 
 body {
   margin: 0 auto;
   display: block;
-  background: url(#{$assetPath}/assets/pikeslake.jpg);
+  background: url(#{$assetPath}/assets/pikes2.png);
   max-width: 100%;
   max-height:100%;
      
@@ -44,7 +48,7 @@ body {
 
 $color-primary: #1a10a0;
 $color-secondary: #B2A3CC;
-$color-cta: #D7BDDB;
+$color-cta: #8b3e97;
 
 body {
     background: #502A4E;
@@ -58,6 +62,10 @@ body {
     background: turquoise;
     @include spacing;
 }
+.box {
+    width: 50%;
+    height: 50%;
+  }
 .footer {
     background: #3C3C90;
     color: $color-primary;

@@ -2,21 +2,28 @@ h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold; }
 
-body {
-  margin: 0 auto;
-  background: url(/assets/pikespeak.jpg/assets/pikespeak.jpg); }
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; }
 
 body {
   margin: 0 auto;
   display: block;
-  background: url(/assets/pikesclouds.jpg/assets/pikesclouds.jpg);
+  background: url(/assets/pikes3.jpg/assets/pikes3.jpg);
   max-width: 100%;
-  max-height: 100%; }
+  max-width: 100%; }
 
 body {
   margin: 0 auto;
   display: block;
-  background: url(/assets/pikeslake.jpg/assets/pikeslake.jpg);
+  background: url(/assets/pikes.png/assets/pikes.png);
+  max-width: 100px;
+  max-height: 100px; }
+
+body {
+  margin: 0 auto;
+  display: block;
+  background: url(/assets/pikes2.jpg/assets/pikes2.png);
   max-width: 100%;
   max-height: 100%; }
 
@@ -33,6 +40,10 @@ body {
   background: turquoise;
   padding: 20px;
   margin: 20px 0; }
+
+.box {
+  width: 50%;
+  height: 50%; }
 
 .footer {
   background: #3C3C90;
