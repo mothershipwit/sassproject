@@ -3,7 +3,7 @@
     margin: 20px 0;
 }
     @mixin heading-font {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
     font-weight: bold;
   }
 
@@ -15,40 +15,11 @@
   }
 
   $assetPath :"/assets/pikes3.jpg";
-
-body {
-  margin: 0 auto;
-  display: block;
-  background: url(#{$assetPath}/assets/pikes3.jpg);
- max-width: 100%;
- max-width: 100%;
-}
-
-$assetPath :"/assets/pikes.png";
-
-body {
-  margin: 0 auto;
-  display: block;
-  background: url(#{$assetPath}/assets/pikes.png);
-  max-width: 100px;
-  max-height: 100px;
-  
-}
-
-$assetPath :"/assets/pikes2.jpg";
-
-body {
-  margin: 0 auto;
-  display: block;
-  background: url(#{$assetPath}/assets/pikes2.png);
-  max-width: 100%;
-  max-height:100%;
-     
-}
-
-$color-primary: #1a10a0;
-$color-secondary: #B2A3CC;
-$color-cta: #8b3e97;
+  $assetPath :"/assets/pikes.png";
+  $assetPath :"/assets/pikes2.png";
+  $color-primary: #1a10a0;
+  $color-secondary: #B2A3CC;
+  $color-cta: #8b3e97;
 
 body {
     background: #502A4E;
